@@ -1,55 +1,22 @@
 {
-  "name": "mongoose-synonyms",
-  "description": "Provide synonym search for MongoDB queries",
-  "version": "0.1.5",
+  "name": "mongoose-quote-email",
+  "description": "Automatically quotes emails in text searches",
+  "version": "0.1.0",
   "author": {
-    "name": "Victor Kareh",
-    "email": "victor@seelio.com"
+    "name": "Stuart VandenBrink",
+    "email": "stuart@seelio.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/seelio/mongoose-synonyms"
+    "url": "git://github.com/seelio/mongoose-quote-email"
   },
   "main": "./index.js",
   "dependencies": {
     "hooks": "~0.3.2",
-    "natural": "~0.1.28",
     "underscore": "~1.7.0"
   },
   "devDependencies": {
-    "chai": "~1.9.1",
-    "istanbul": "~0.3.0",
-    "mocha": "~1.21.4",
     "mongoose": "~3.8.15"
-  },
-  "scripts": {
-    "test": "mocha -R spec",
-    "coverage": "istanbul cover node_modules/mocha/bin/_mocha"
-  },
-  "bugs": {
-    "url": "https://github.com/seelio/mongoose-synonyms/issues"
-  },
-  "_id": "mongoose-synonyms@0.1.5",
-  "dist": {
-    "shasum": "47ae319bd6953a28d8daba02a48b7fb716b7f743",
-    "tarball": "http://registry.npmjs.org/mongoose-synonyms/-/mongoose-synonyms-0.1.5.tgz"
-  },
-  "_from": "mongoose-synonyms@0.1.x",
-  "_npmVersion": "1.3.11",
-  "_npmUser": {
-    "name": "vkareh",
-    "email": "vkareh@vkareh.net"
-  },
-  "maintainers": [
-    {
-      "name": "vkareh",
-      "email": "vkareh@vkareh.net"
-    }
-  ],
-  "directories": {},
-  "_shasum": "47ae319bd6953a28d8daba02a48b7fb716b7f743",
-  "_resolved": "https://registry.npmjs.org/mongoose-synonyms/-/mongoose-synonyms-0.1.5.tgz",
-  "readme": "ERROR: No README data found!",
-  "homepage": "https://github.com/seelio/mongoose-synonyms"
+  }
 }
